@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="inputs">
+        <input id="picture" class="styled-input" type="text" placeholder="Picture" />
+        <input id="namesPainting" class="styled_input" type="text" placeholder="Names of the painting">
+        <input id="authorName" class="styledinput" type="text" placeholder="Author's name">
+        <button id="button_addcard"  class="button_send">To send</button>
+        <ul id="cards"></ul>
+      </div>
+    </main>
+    <template class="template">
+      <li class="card">
+        <img class="img_card" src="" alt="" />
+        <h3 class="zagolovok_card"></h3>
+        <p class="text_card"></p>
+        <button class="button_liked"></button>
+        <button class="button_delet"></button>
+      </li>
+    </template>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

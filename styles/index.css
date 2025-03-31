@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  justify-items: center;
+  background-color: rgb(40, 37, 37);
+}
+.card {
+  background-color: #664848;
+  width: 20vw;
+  list-style: none;
+  justify-items: center;
+  margin: 20px;
+}
+img {
+  padding: 30px;
+  width: 15vw;
+}
+.button_liked {
+  background: none;
+  cursor: pointer;
+  background-image: url(/assets/heart__love__romance__health__favorite-1024.webp);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-style: none;
+}
+.button_delet {
+  background: none;
+  cursor: pointer;
+  background-image: url(/assets/cross-check-symbol-on-transparent-background-free-png.webp);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-style: none;
+}
+.styled-input {
+  width: 100%;
+  max-width: 400px; 
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 2px solid #4caf50; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s; 
+  display: flex;
+}
+
+.button_like {
+  background: none;
+  cursor: pointer;
+  background-image: url(/assets/1678086509_bogatyr-club-p-beloe-serdtse-foni-instagram-12.png);
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-style: none;
+  background-color: #664848;
+}
+.button_send {
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  background-color: red;
+  
+}
+.styled_input {
+  width: 100%;
+  max-width: 400px; 
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 2px solid #4caf50; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px; 
+  transition: border-color 0.3s, box-shadow 0.3s; 
+  display: flex;
+}
+.styledinput {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 2px solid #4caf50; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px; 
+  transition: border-color 0.3s, box-shadow 0.3s; 
+  display: flex;
+}
