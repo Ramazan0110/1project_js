@@ -51,6 +51,9 @@ function clone(obj) {
   });
 
   card.appendChild(cloned); 
+  page.querySelector(".styled-input").value = "";
+  page.querySelector(".styled_input").value = "";
+  page.querySelector(".styledinput").value = "";
   return cloned;
 }
 
